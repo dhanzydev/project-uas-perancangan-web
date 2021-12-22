@@ -51,13 +51,13 @@ nav ul li a {
 nav ul li a:hover{
     font-weight: 600;
     cursor: pointer;
-    border-bottom: 2px solid #07689F;
+    border-bottom: 2px solid #185ADB;
 }
 
 
 .logo {
     display: flex;
-    color: #07689F;
+    color: #185ADB;
 }
 
 .logo i {
@@ -83,7 +83,7 @@ nav .btn-menu {
 }
 
 nav ul .primary-nav {
-    background: black;
+    background: #185ADB;
     height: 50px;
     width: 180px;
     text-align: center;
@@ -104,31 +104,62 @@ nav ul .primary-nav a:hover {
 
 /* CONTENT */
 
-section .container {
+#beranda .container {
     display: flex;
     position: relative;
-    top:100px;
+    top:50px;
 }
 
-section .left-content {
-    width: 50%;
-    height: 100px;
+#beranda .left-content img{
+    width: 500px;
 }
 
-section .right-content {
-    width: 50%;
-    height: 100px;
-}
 
-section .right-content .text-content {
+#beranda .right-content .text-content {
     text-align: center;
     margin-top: 150px;
-    vertical-align: middle;
+    margin-bottom: 40px;
+}
+
+.text-content h1 {
+    font-size: 40px;
+    color: #185ADB;
+}
+
+.text-content p {
+    opacity: 0.5;
 }
 
 
+.btn-order {
+    width: 200px;
+    height: 40px;
+    background: #185ADB;
+    padding: 5px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.btn-order a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+}
 
 /* END OF CONTENT */
+
+/* PRIVILAGE */
+#keunggulan {
+    height: 500px;
+    background: #185ADB;
+}
+/* END OF PRIVILAGE */
+
 
 /* MEDIA QUERIES */
 
@@ -147,7 +178,7 @@ section .right-content .text-content {
     }
 
     nav ul .primary-nav {
-        background: black;
+        background: #185ADB;
         height: 50px;
         width: 150px;
         text-align: center;
@@ -155,12 +186,21 @@ section .right-content .text-content {
         padding: 10px;
         border-radius: 10px;
     }
+
+    #beranda .right-content .text-content {
+        margin-top: 80px;
+    }
+
+    .text-content h1 {
+        font-size: 30px;
+    }
 }
 
 
-@media (max-width: 810px) { 
+@media (max-width: 810px) {
     nav {
         transition: all 1s ease;
+        background: rgb(255, 255, 255);
     }
 
     nav ul li {
@@ -180,6 +220,7 @@ section .right-content .text-content {
         left: 0;
         padding-bottom: 20px;
         text-align: center;
+        background: white;
     }
 
     nav ul li a {
@@ -200,6 +241,39 @@ section .right-content .text-content {
         padding-top: 10px;
     }
 
+    #beranda .container {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 
+    #beranda .left-content img{
+        width: 400px;
+        height: 400px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #beranda .right-content{
+        margin-top: -100px;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
     
+}
+
+@media (max-width: 576px) {
+    #beranda .right-content .text-content {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width:480px) {
+    #beranda .right-content .text-content {
+        margin-top: 50px;
+    }
 }
