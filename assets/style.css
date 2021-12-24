@@ -154,10 +154,85 @@ nav ul .primary-nav a:hover {
 /* END OF CONTENT */
 
 /* PRIVILAGE */
-#keunggulan {
-    height: 500px;
-    background: #185ADB;
+
+.container .privilage {
+    width: 1200px;
+    display: flex;
+    gap: 20px;
+    margin-top: 100px;
 }
+
+
+.privilage img {
+    width: 50px;
+    height: 50px;
+}
+
+.privilage .fast, .complete, .revision, .easy, .cheap, .online {
+    min-width: 200px;
+    height: 150px;
+}
+
+.fast img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.complete img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.revision img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.easy img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cheap img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.online img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fast h2, p {
+    text-align: center;
+}
+
+.complete h2, p {
+    text-align: center;
+}
+
+.revision h2, p {
+    text-align: center;
+}
+
+.easy h2, p {
+    text-align: center;
+}
+
+.cheap h2, p {
+    text-align: center;
+}
+
+.online h2, p {
+    text-align: center;
+}
+
 /* END OF PRIVILAGE */
 
 
