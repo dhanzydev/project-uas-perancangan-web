@@ -156,90 +156,62 @@ nav ul .primary-nav a:hover {
 /* PRIVILAGE */
 
 .container .privilage {
-    width: 1200px;
     display: flex;
-    gap: 20px;
-    margin-top: 100px;
+    justify-content: center;
+    margin-top: 50px;
+    height: 400px;
+    gap: 30px;
 }
 
+#keunggulan .container  h1 {
+    font-size: 35px;
+    margin-top: 80px;
+    text-align: center;
+    color: #185ADB;
+}
 
 .privilage img {
     width: 50px;
     height: 50px;
 }
 
-.privilage .fast, .complete, .revision, .easy, .cheap, .online {
-    min-width: 200px;
-    height: 150px;
+.privilage .upper {
+    height: 350px;
+    width: 300px;
 }
 
-.fast img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.privilage .upper .fast, .complete {
+    margin-bottom: 30px;
 }
 
-.complete img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.privilage .bottom {
+    height: 350px;
 }
 
-.revision img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.easy img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.cheap img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.online img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.fast h2, p {
-    text-align: center;
-}
-
-.complete h2, p {
-    text-align: center;
-}
-
-.revision h2, p {
-    text-align: center;
-}
-
-.easy h2, p {
-    text-align: center;
-}
-
-.cheap h2, p {
-    text-align: center;
-}
-
-.online h2, p {
-    text-align: center;
+.privilage .bottom .easy, .cheap {
+    margin-bottom: 30px;
 }
 
 /* END OF PRIVILAGE */
 
+/* SERVICE */
+#layanan {
+    background: #185ADB;
+}
+
+#layanan .container {
+    margin-top: 120px;
+    height: 800px;
+}
+
+
+
+/* END OF SERVICE */
 
 /* MEDIA QUERIES */
 
-/* FOR NAVBAR */
 @media (max-width: 992px) {
+    /* NAVBAR */
     nav ul li a {
         font-size: 15px;
     }
@@ -262,6 +234,8 @@ nav ul .primary-nav a:hover {
         border-radius: 10px;
     }
 
+    /* CONTENT */
+
     #beranda .right-content .text-content {
         margin-top: 80px;
     }
@@ -269,10 +243,13 @@ nav ul .primary-nav a:hover {
     .text-content h1 {
         font-size: 30px;
     }
+
+    
 }
 
 
 @media (max-width: 810px) {
+    /* NAVBAR */
     nav {
         transition: all 1s ease;
         background: rgb(255, 255, 255);
@@ -316,6 +293,8 @@ nav ul .primary-nav a:hover {
         padding-top: 10px;
     }
 
+    /* CONTENT */
+
     #beranda .container {
         align-items: center;
         justify-content: center;
@@ -342,12 +321,14 @@ nav ul .primary-nav a:hover {
 }
 
 @media (max-width: 576px) {
+    /* CONTENT */
     #beranda .right-content .text-content {
         margin-top: 100px;
     }
 }
 
 @media (max-width:480px) {
+    /* CONTENT */
     #beranda .right-content .text-content {
         margin-top: 50px;
     }
