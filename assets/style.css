@@ -196,14 +196,109 @@ nav ul .primary-nav a:hover {
 
 /* SERVICE */
 #layanan {
+    margin-top: 100px;
     background: #185ADB;
+    width: 100%;
 }
 
 #layanan .container {
-    margin-top: 120px;
-    height: 800px;
+    margin-top: 80px;
+    display: flex;
+    gap: 40px;
 }
 
+#layanan .container .joki-tugas {
+    height: 600px;
+}
+
+#layanan h1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #FFF;
+}
+
+#layanan .container .joki-tugas img {
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -80px;
+}
+
+.joki-tugas h2 {
+    text-align: center;
+    color: #FFF;
+}
+
+.joki-tugas p {
+    color: #FFF;
+}
+
+.joki-tugas .btn-order-joki-tugas {
+    width: 200px;
+    height: 40px;
+    background: #FFF;
+    padding: 5px;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.joki-tugas .btn-order-joki-tugas a {
+    text-decoration: none;
+    color: #185ADB;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#layanan .container .tutorial {
+    height: 600px;
+}
+
+#layanan .container .tutorial img {
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+}
+
+.tutorial h2 {
+    text-align: center;
+    color: #FFF;
+}
+
+.tutorial p {
+    color: #FFF;
+}
+
+.tutorial .btn-tutorial {
+    width: 200px;
+    height: 40px;
+    background: #FFF;
+    padding: 5px;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.tutorial .btn-tutorial a {
+    text-decoration: none;
+    color: #185ADB;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+}
 
 
 /* END OF SERVICE */
@@ -242,6 +337,13 @@ nav ul .primary-nav a:hover {
 
     .text-content h1 {
         font-size: 30px;
+    }
+
+    #layanan .container {
+        margin-top: 30px;
+        flex-direction: column;
+        margin-left: auto;
+        justify-content: center;
     }
 
     
@@ -331,5 +433,9 @@ nav ul .primary-nav a:hover {
     /* CONTENT */
     #beranda .right-content .text-content {
         margin-top: 50px;
+    }
+
+    #layanan {
+        margin-top: 200px;
     }
 }
