@@ -20,7 +20,6 @@
                 <li><a href="#beranda">Beranda</a></li>
                 <li><a href="#keunggulan">Keunggulan</a></li>
                 <li><a href="#layanan">Layanan</a></li>
-                <li><a href="#daftar-harga">Daftar Harga</a></li>
                 <li class="primary-nav"><a href="#order">Pesan Sekarang</a></li>
             </ul>
             <i class='bx bx-menu btn-menu'></i>
@@ -46,7 +45,7 @@
                         </p>
                     </div>
                     <div class="btn-order">
-                        <a href="#" id="order">Pesan Sekarang</a>
+                        <a href="#">Pesan Sekarang</a>
                     </div>
                 </div>
             </div>
@@ -109,7 +108,7 @@
                     Consectetur reiciendis doloribus provident, ratione unde 
                     praesentium exercitationem nesciunt odio quaerat minima.</p>
                 <div class="btn-order-joki-tugas">
-                    <a href="#" id="order">Pesan Sekarang</a>
+                    <a href="#">Pesan Sekarang</a>
                 </div>
             </div>
             <div class="tutorial">
@@ -117,13 +116,50 @@
                 <img src="assets/img/webinar.svg" alt="">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nulla at veniam quos consequuntur praesentium alias molestias iste enim nobis.</p>
                 <div class="btn-tutorial">
-                    <a href="#" id="order">Pesan Sekarang</a>
+                    <a href="#">Pesan Sekarang</a>
                 </div>
             </div>
         </div>
     </section>
     <!-- END OF SERVICE -->
     
+    <!-- ORDER FORM -->
+    <section id="order">
+        <h1>Formulir Pemesanan</h1>
+        <div class="container">
+            <form>
+                <div class="identity">
+                    <label for="nama">Nama</label><br>
+                    <input type="text" name="nama"><br>
+                    <br>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email"><br>
+                    <br>
+                    <label for="number">No HP / WA</label><br>
+                    <input type="number">
+                </div>
+                <br>
+                <label for="tingkat-pendidikan">Tingkat Pendidikan</label><br>
+                <select name="education" id="education">
+                    <option value="">Silahkan Pilih</option>
+                    <option value="SMP">SMP</option>
+                    <option value="SMA">SMA / SMK</option>
+                    <option value="Kuliah" id="kuliah">Kuliah</option>
+                </select>
+                <br>
+                <br>
+                <label for="mapel" id="mapel">Pelajaran</label><br>
+                <input type="text" id="form-mapel"><br>
+                <br>
+                <label for="keterangan">Keterangan</label><br>
+                <textarea name="keterangan" id="keterangan" cols="100" rows="10"></textarea>
+                <div class="btn-order send">
+                    <a href="#">Kirim</a>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- END OF ORDER FORM -->
 
     <script src="script.js"></script>
 </body>
