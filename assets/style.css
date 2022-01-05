@@ -326,9 +326,38 @@ form select {
 .send {
     margin-top: 50px;
 }
-
-
 /* END OF FORM ORDER */
+
+/* FOOTER */
+
+footer {
+    margin-top: 100px;
+    height: 200px;
+    background: #185ADB;
+}
+
+.footer {
+    float: right;
+    margin-top: 50px;
+}
+
+.footer li {
+    list-style: none;
+    display: inline;
+}
+
+.footer li a {
+    color: #FFF;
+    text-decoration: none;
+    width: 10px;
+    height: 10px;
+    padding: 30px;
+}
+
+
+
+
+/* END OF FOOTER */
 
 /* MEDIA QUERIES */
 
@@ -371,6 +400,11 @@ form select {
         flex-direction: column;
         margin-left: auto;
         justify-content: center;
+    }
+
+    .footer li{
+        display: block;
+        float: left;
     }
 
     
@@ -450,6 +484,11 @@ form select {
     #keunggulan .container h1 {
         font-size: 30px;
     }
+
+    .footer li{
+        display: block;
+        float: left;
+    }
 }
 
 @media (max-width: 576px) {
@@ -460,6 +499,11 @@ form select {
 
     textarea {
         width: 500px;
+    }
+
+    .footer li{
+        display: block;
+        float: left;
     }
 }
 
@@ -482,6 +526,11 @@ form select {
         width: 400px;
     }
 
+    .footer li{
+        display: block;
+        float: left;
+    }
+
 }
 
 @media (max-width: 414px) {
@@ -492,5 +541,10 @@ form select {
 
     textarea {
         width: 300px;
+    }
+
+    .footer li{
+        display: block;
+        float: left;
     }
 }
