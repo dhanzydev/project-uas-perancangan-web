@@ -20,7 +20,18 @@ function formChange() {
   var x = document.getElementById("education").selectedIndex;
   var y = document.getElementsByTagName("option")[x].value;
 
-  if (y == "Kuliah") {
+  // if (y == "Kuliah") {
+  //   formKuliah.setAttribute("style", "display: block");
+  //   formSmpSma.setAttribute("style", "display: none");
+  // } else {
+  //   formKuliah.setAttribute("style", "display: none");
+  //   formSmpSma.setAttribute("style", "display: block");
+  // }
+
+  if (y == "") {
+    formSmpSma.setAttribute("style", "display: none");
+    formKuliah.setAttribute("style", "display: none");
+  } else if (y == "Kuliah") {
     formKuliah.setAttribute("style", "display: block");
     formSmpSma.setAttribute("style", "display: none");
   } else {
