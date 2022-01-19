@@ -478,6 +478,19 @@ footer {
     display: block;
     float: left;
   }
+
+  #testimonial {
+    height: 1300px;
+  }
+
+  #testimonial .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card-testi {
+    display: block;
+    margin: auto;
+  }
 }
 
 @media (max-width: 810px) {
@@ -573,6 +586,17 @@ footer {
   .footer li {
     display: block;
     float: left;
+  }
+}
+
+@media (max-width: 680px) {
+  #testimonial .container {
+    display: grid;
+    grid-template-columns: none;
+  }
+
+  #testimonial {
+    height: 2100px;
   }
 }
 
