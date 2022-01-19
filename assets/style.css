@@ -173,44 +173,38 @@ nav ul .primary-nav a:hover {
 /* END OF CONTENT */
 
 /* PRIVILAGE */
+#keunggulan {
+  margin-top: 100px;
+}
 
 .container .privilage {
   display: flex;
-  justify-content: center;
   margin-top: 50px;
-  height: 400px;
-  gap: 30px;
 }
 
 #keunggulan .container h1 {
-  font-size: 35px;
-  margin-top: 80px;
-  text-align: center;
   color: #185adb;
+  text-align: center;
 }
 
 .privilage img {
   width: 50px;
   height: 50px;
+  display: block;
+  margin: auto;
 }
 
-.privilage .upper {
-  height: 350px;
-  width: 300px;
+.card-privilages p,
+h3 {
+  text-align: center;
 }
 
-.privilage .upper .fast,
-.complete {
-  margin-bottom: 30px;
+.card-privilages p {
+  opacity: 0.8;
 }
 
-.privilage .bottom {
-  height: 350px;
-}
-
-.privilage .bottom .easy,
-.cheap {
-  margin-bottom: 30px;
+.card-privilages h3 {
+  color: #185adb;
 }
 
 /* END OF PRIVILAGE */
@@ -401,6 +395,15 @@ footer {
     margin: auto;
     padding: 10px;
     border-radius: 10px;
+  }
+
+  /* PRIVILAGE */
+  .container .privilage {
+    flex-direction: column;
+  }
+
+  .card-privilages {
+    margin-bottom: 40px;
   }
 
   /* CONTENT */
