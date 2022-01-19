@@ -172,6 +172,57 @@ nav ul .primary-nav a:hover {
 
 /* END OF CONTENT */
 
+/* TESTIMONIAL */
+
+#testimonial {
+  background-color: #185adb;
+  margin-top: 100px;
+  height: 800px;
+}
+
+#testimonial .container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.card-testi {
+  width: 300px;
+  height: 300px;
+  background: #fff;
+  margin-top: 50px;
+}
+
+.card-testi .profile-image {
+  width: 100px;
+  height: 100px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  display: block;
+  margin: 10px auto 0px auto;
+}
+
+.card-testi p {
+  text-align: center;
+}
+
+.card-testi .person-name {
+  color: #185adb;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.card-testi .testi-word {
+  width: 250px;
+  display: block;
+  margin: auto;
+}
+
+/* END OF TESTIMONIAL */
+
 /* PRIVILAGE */
 #keunggulan {
   margin-top: 100px;
