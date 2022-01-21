@@ -399,7 +399,7 @@ form select {
 
 footer {
   margin-top: 100px;
-  height: 200px;
+  height: 110px;
   background: #185adb;
 }
 
@@ -418,7 +418,7 @@ footer {
   text-decoration: none;
   width: 10px;
   height: 10px;
-  padding: 30px;
+  padding: 10px;
 }
 
 /* END OF FOOTER */
@@ -496,11 +496,6 @@ footer {
 
 @media (max-width: 810px) {
   /* NAVBAR */
-  nav {
-    transition: all 1s ease;
-    background: rgb(255, 255, 255);
-  }
-
   nav ul li {
     padding: 10px;
   }
